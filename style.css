@@ -13,8 +13,8 @@ header {
     padding: 5px;
     background-color: #000000;
     position: absolute;
-    top: 0px;
-    left: 0px;
+    top: 0;
+    left: 0;
 }
 
 .site-title a {
@@ -26,4 +26,34 @@ header {
     position: relative;
     top: -130px;
     left: 150px;
+}
+
+.filter-container {
+    display: table;
+    width: 200px;
+    height: 350px;
+    margin-left: 5px;
+    padding-right: 20px;
+    padding-bottom: 25px;
+    padding-left: 20px;
+    background-color: #F5F5F5;
+    position: relative;
+    top: 165px;
+    left: 0;
+}
+
+.result {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+}
+
+.result-image-container img {
+    display: block;
+    height: 100px;
+    width: 100px;
+}
+
+.result-info-container {
+    display: inline;
 }
