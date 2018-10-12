@@ -18,14 +18,14 @@ header {
 }
 
 .site-title a {
-    font-family: Courier New, Courier, monospace;
-    font-size: 75px;
+    font-family: Roboto Slab;
+    font-size: 85px;
     font-weight: 100;
     color: #FFFFFF;
     text-decoration: none;
     position: relative;
-    top: -130px;
-    left: 150px;
+    top: -150px;
+    left: 175px;
 }
 
 .filter-container {
@@ -39,19 +39,33 @@ header {
     background-color: #F5F5F5;
     position: relative;
     top: 165px;
-    left: 0;
+    border-radius: 5px;
+    font-family: Roboto;
 }
 
+.results {
+    border: 20px solid black;
+}
 .result {
-    display: inline-block;
-    width: 100px;
-    height: 100px;
+    display: inline-flex;
+    width: 350px;
+    height: 300px;
+    margin: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    border: 1px solid #D3D3D3;
+    border-radius: 5px;
+    position: relative;
+    top: -215px;
+    left: 260px;
+    vertical-align: middle;
+    font-family: Roboto;
 }
 
 .result-image-container img {
-    display: block;
-    height: 100px;
-    width: 100px;
+    height: 100%;
+    width: 100%;
 }
 
 .result-info-container {
