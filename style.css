@@ -17,14 +17,18 @@ header {
     left: 0;
 }
 
+.content {
+    font-family: Roboto;
+}
+
 .site-title a {
     font-family: Roboto Slab;
-    font-size: 85px;
+    font-size: 75px;
     font-weight: 100;
     color: #FFFFFF;
     text-decoration: none;
     position: relative;
-    top: -150px;
+    top: -130px;
     left: 175px;
 }
 
@@ -34,40 +38,99 @@ header {
     height: 350px;
     margin-left: 5px;
     padding-right: 20px;
-    padding-bottom: 25px;
+    padding-bottom: 20px;
     padding-left: 20px;
     background-color: #F5F5F5;
     position: relative;
     top: 165px;
     border-radius: 5px;
-    font-family: Roboto;
 }
 
-.results {
-    border: 20px solid black;
+.action-button {
+    height: 50px;
+    width: 200px;
+    font-size: 20px;
+    font-weight: 100;
+    color: #FFFFFF;
+    border-radius: 5px;
+    border: solid #000000;
+    background-color: #000000;
+    margin-top: 20px;
 }
+
+.action-button:hover {
+
+}
+
+#results {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    top: -220px;
+    left: 260px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    border: 1px solid #000000;
+}
+
 .result {
     display: inline-flex;
-    width: 350px;
-    height: 300px;
+    width: 275px;
+    height: 275px;
     margin: 10px;
     padding-top: 10px;
     padding-right: 10px;
     padding-left: 10px;
     border: 1px solid #D3D3D3;
     border-radius: 5px;
-    position: relative;
-    top: -215px;
-    left: 260px;
     vertical-align: middle;
-    font-family: Roboto;
 }
 
 .result-image-container img {
     height: 100%;
     width: 100%;
+    padding-bottom: 20px;
 }
 
 .result-info-container {
     display: inline;
+}
+
+.result-title {
+    text-decoration: none;
+    color: #ff6a00;
+}
+
+.result-title:hover {
+    color: #ff6a00;
+    text-decoration: underline;
+}
+
+.result-price {
+    padding: 3px;
+    margin: 5px;
+    border: 1px solid #000000;
+    border-radius: 3px;
+    background-color: #D3D3D3;
+    font-size: 12px;
+}
+
+.result-city {
+
+}
+
+#sell-something-button {
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    height: 50px;
+    width: 50px;
+    margin: 10px;
+    border: none;
+    border-radius: 100%;
+    background-color: #ff6a00;
+    color: #FFFFFF;
+    font-size: 30px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, .5);
 }
