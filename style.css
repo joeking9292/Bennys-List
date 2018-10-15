@@ -50,6 +50,7 @@ header {
     height: 20px;
     width: 60px;
     margin: 5px;
+    margin-bottom: 15px;
     padding-left: 2px;
     border: 1px solid #D3D3D3;
     border-radius: 3px;
@@ -60,6 +61,15 @@ header {
     width: 60px;
     margin: 5px;
     padding-left: 2px;
+    border: 1px solid #D3D3D3;
+    border-radius: 3px;
+}
+
+#filter-text {
+    height: 20px;
+    width: 143px;
+    margin-left: 10px;
+    margin-bottom: 15px;
     border: 1px solid #D3D3D3;
     border-radius: 3px;
 }
