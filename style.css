@@ -18,7 +18,11 @@ header {
 }
 
 .content {
+    display: flex;
     font-family: Roboto;
+    position: relative;
+    top: 165px;
+    border-radius: 3px;
 }
 
 .site-title a {
@@ -37,13 +41,12 @@ header {
     width: 200px;
     height: 350px;
     margin-left: 5px;
+    margin-right: 10px;
     padding-right: 20px;
     padding-bottom: 20px;
     padding-left: 20px;
     background-color: #D3D3D3;
-    position: relative;
-    top: 165px;
-    border-radius: 3px;
+    border-radius: 5px;
 }
 
 #filter-min-price {
@@ -69,9 +72,18 @@ header {
     height: 20px;
     width: 143px;
     margin-left: 10px;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
     border: 1px solid #D3D3D3;
     border-radius: 3px;
+}
+
+#filter-city {
+    height: 20px;
+    width: 143px;
+    border-radius: 3px;
+    margin-left: 15px;
+    margin-bottom: 20px;
+    border: none;
 }
 
 .action-button {
@@ -90,27 +102,22 @@ header {
     background-color: #eec183;
     color: #000000;
     border: 1px solid #000000;
-
     cursor: pointer;
 }
 
 #results {
     display: flex;
-    width: 100%;
-    height: 100%;
-    position: relative;
-    top: -250px;
-    left: 260px;
     flex-wrap: wrap;
     flex-direction: row;
-    border: 1px solid #000000;
 }
 
 .result {
     display: inline-flex;
     width: 275px;
     height: 275px;
-    margin: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 20px;
     padding-top: 10px;
     padding-right: 10px;
     padding-left: 10px;
@@ -120,7 +127,7 @@ header {
 }
 
 .result-image-container img {
-    height: 100%;
+    height: 175px;
     width: 100%;
     padding-bottom: 20px;
 }
@@ -167,6 +174,5 @@ header {
     width: 55px;
     border-radius: 100%;
     font-size: 35px;
-
     cursor: pointer;
 }
